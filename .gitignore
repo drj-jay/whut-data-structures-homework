@@ -1,0 +1,21 @@
+# build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+
+# build directories
+build/
+bin/
+cmake-build-*/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# system
+Thumbs.db
+.DS_Store
