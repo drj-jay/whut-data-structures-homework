@@ -20,6 +20,9 @@ class MyLinkedStack{
             list.pop_back();
             return val; 
         }
+        int getPopIndex(){
+            return list.size();
+        }
         //判断是否为空
         bool isEmpty(){
             return list.empty();

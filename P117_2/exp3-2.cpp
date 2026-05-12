@@ -8,8 +8,7 @@ int main(){
     s.push('d');
     s.push('e');
     std::cout<<s.isEmpty()<<std::endl;
-    s.printStack();
-    std::cout<<std::endl;
+    std::cout<<s.getPopIndex()<<std::endl;
     std::cout<<s.isEmpty()<<std::endl;
     return 0;
 }
