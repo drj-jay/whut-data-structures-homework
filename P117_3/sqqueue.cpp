@@ -19,7 +19,7 @@ private:
         head=0;
     }
 public:
-    sqqueue(int capacity=10):count(0),head(0),tail(0),arr(capacity){};
+    sqqueue(int capacity=6):count(0),head(0),tail(0),arr(capacity){};
     //入队
     void enqueue(const E &e){
         if(isfull()){
